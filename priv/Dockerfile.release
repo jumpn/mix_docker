@@ -1,4 +1,4 @@
-FROM bitwalker/alpine-erlang:20.2.2
+FROM bitwalker/alpine-erlang:21.0
 
 RUN apk update && \
     apk --no-cache --update add libgcc libstdc++ && \
