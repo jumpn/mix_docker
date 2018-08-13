@@ -34,7 +34,7 @@ defmodule MixDocker.Mixfile do
 
   defp deps do
     [
-      {:distillery, "~> 1.5.3"},
+      {:distillery, "~> 2.0.0-rc11"},
       {:cowboy, "~> 1.0.0"},
       {:plug, "~> 1.0"},
       {:ex_doc, "~> 0.10", only: :dev}
